@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SheerazAkmal
 - 👀 I’m interested in learning programming
-- 🌱 I’m currently learning OOP
+- 🌱 I’m currently BS-IT Final Year Student
 - 💞️ I’m looking to collaboration ...
 - 📫 How to reach me sheerazakmal246@gmail.com 
 
