@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.nav {
+
+    background: rgba(52, 47, 38, 1);
+}
+
+.navbar-brand {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    color: rgba(52, 47, 38, 1);
+    background-color: rgba(204, 163, 83, 1);
+}
+
+.nav-link {
+    color: aliceblue
+}
+
+.nav-link:hover {
+    color: rgba(204, 163, 83, 1);
+    text-decoration: none; /* Remove the default underline */
+    position: relative; /* Required for absolute positioning of the custom underline */
+    font-weight: bold;
+}
+
+.nav-link:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 2px; /* Adjust the position to align with the text */
+    left: 10px;
+    width: 40%; /* Set the underline width to 50px */
+    height: 2px; /* Set the underline height to your preference */
+    background-color: rgba(204, 163, 83, 1);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+/* .nav-link:hover {
+    color: rgba(204, 163, 83, 1);
+    text-decoration: underline 2px solid rgba(204, 163, 83, 1);
+    text-underline-offset: 8px;
+    font: bolder;
+}
+.nav-link:hover::after {
+    
+} */
+.form-control {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-control::placeholder  {
+    color: white;
+    opacity: .25;
+}
+
+
+.bi-person-square {
+    color: white;
+    background-color: rgba(204, 163, 83, 1);
+
+}
+.form-control .btn{
+    font-size: small;
+}
+
+/* home  */
+#Home{
+    height: 100%
+    
+    
+    ;
+    /* background: url(./Img/background.png)no-repeat center/cover; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .6)), url(./Img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home h1 {
+    
+  
+    /* font-weight: 800; */
+    /* font-size: 44px; */
+  
+}
+
+.home h1 span {
+    /* font-size: 44px; */
+    color: rgba(237, 191, 101, 1);
+}
+
+p {
+
+    /* font-size: 14px; */
+    /* font-family: 'Poppins'; */
+    /* font-weight: 500; */
+}
+
+.home div {
+
+    /* border-radius: 16px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    backdrop-filter: blur(5px);
+    margin-top: 50px;
+    /* backdrop-filter: blur(3px); */
+}
+
+.label {
+    color: #EDBF65;
+
+
+}
+hr {
+    width: 200px;
+
+    border: 1px solid #ffc34a;
+}
+
+.form .btn {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(204, 163, 83, 1);
+}
+
+/* Book */
+#Book {
+    background: rgba(255, 245, 224, 1);
+}
+
+.book h4 {
+    color: rgba(52, 47, 38, 1);
+    
+
+}
+
+.book h4 span {
+    color: #EDBF65;
+}
+
+.book hr {
+    width: 90px;
+    /* border:2px solid rgba(204, 163, 83, 1); */
+    /* background:  #CCA353; */
+    border: 1px solid rgba(204, 163, 83, 1);
+}
+
+.book p {
+    color: rgba(112, 112, 112, 1);
+  
+}
+
+.e-book div {
+    border: 2px solid rgba(204, 163, 83, 1);
+    color: rgba(52, 47, 38, 1);
+    
+}
+
+
+
+
+/* Featured Companies  */
+.companies h3 {
+    font-family: Poppins;
+
+    font-weight: bolder;
+
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(52, 47, 38, 1);
+}
+
+.companies h3 span {
+    color: rgba(204, 163, 83, 1);
+}
+
+.companies hr {
+    border: 1px solid rgba(204, 163, 83, 1);
+    /* background: rgba(204, 163, 83, 1); */
+    width: 100px;
+
+}
+
+.companies p {
+    width: 650px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 27px;
+
+
+}
+
+.companies a {
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: none;
+    color: rgba(204, 163, 83, 1);
+
+}
+
+.companies .row .col {
+    box-sizing: border-box;
+    background-color: rgb(248, 245, 238);
+    width: 24%;
+}
+
+.companies .row .col .Blog {
+    box-sizing: border-box;
+}
+
+.companies .row .col .property-name {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.companies .row .col .address .add {
+    font-size: 15px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.companies .row div .participants .lab {
+    font-size: 14px;
+    text-align: left;
+}
+
+
+/* we-offer */
+#we-offer {
+    background:#FFF5E0
+}
+
+.row .left .a {
+    color: #CCA353;
+    font-family: Poppins;
+}
+.row .left h3{
+    color:  #342F26;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px; /* 133.333% */
+}
+.row .left h3 span{
+    color:  #CCA353;
+
+}
+
+.row .left hr{
+    border : 2px solid  rgb(202, 158, 69);
+    background-color: #CCA353;
+}
+.row .left .b{
+    color: #342F26;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+/* font-weight: 500; */
+line-height: 16px; /* 150% */
+}
+.row .left .btn{
+    color:#FFF5E0;
+    background: #CCA353;
+}
+
+/* Community */
+#Community hr{
+   
+ border-color:  rgba(204, 164, 83, 0.437) ;
+ /* background-color: rgba(204, 163, 83, 1)#c98e18; */
+}
+#Community  .row  div  a{
+    color: #c98e18;
+}
+
+/* Footer Section */
+#Footer{
+    background: #342F26;
+}
+#Footer .container-lg .A .social-links div{
+    background: #CCA353;
+}
+.C input{
+    border: 2px solid rgba(204, 163, 83, 1);
+}
+.C div span {
+    background: rgba(204, 163, 83, 1);
+    
+}
+#Footer .container-lg .C  div  a,
+#Footer .container-lg .B ul li a{
+    color: #FFF5E0;
+}
+ #Footer .container-lg .C  div  a:hover{
+    color: #CCA353;
+ }
+#Footer .container-lg .B ul li a:hover{ 
+    color: #CCA353;
+    
+} 
+#Footer .privacy_rights div a{
+    color: #CCA353;
+}
+#Footer .privacy_rights div a:hover{
+    color: #FFF5E0;
+}
+
+
+
+/* -----Scrollbar  custumization-------------- */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+background:rgba(255, 245, 224, 1);
+}
+::-webkit-scrollbar-thumb{
+background: linear-gradient(#e6c176,#e6c176 );
+border-radius: 4px;
+}
