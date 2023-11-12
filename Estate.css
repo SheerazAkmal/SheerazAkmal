@@ -31,7 +31,7 @@
 
 .nav-link:hover {
     color: rgba(204, 163, 83, 1);
-    text-decoration: none; /* Remove the default underline */
+    text-decoration: none; 
     position: relative; /* Required for absolute positioning of the custom underline */
     font-weight: bold;
 }
@@ -39,23 +39,15 @@
 .nav-link:hover::after {
     content: "";
     position: absolute;
-    bottom: 2px; /* Adjust the position to align with the text */
+    bottom: 2px; 
     left: 10px;
-    width: 40%; /* Set the underline width to 50px */
-    height: 2px; /* Set the underline height to your preference */
+    width: 40%; 
+    height: 2px; 
     background-color: rgba(204, 163, 83, 1);
     text-decoration: underline;
     text-underline-offset: 8px;
 }
-/* .nav-link:hover {
-    color: rgba(204, 163, 83, 1);
-    text-decoration: underline 2px solid rgba(204, 163, 83, 1);
-    text-underline-offset: 8px;
-    font: bolder;
-}
-.nav-link:hover::after {
-    
-} */
+
 .form-control {
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -87,25 +79,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.home h1 {
-    
-  
-    /* font-weight: 800; */
-    /* font-size: 44px; */
-  
-}
+.home h1 { }
 
 .home h1 span {
-    /* font-size: 44px; */
     color: rgba(237, 191, 101, 1);
 }
 
-p {
-
-    /* font-size: 14px; */
-    /* font-family: 'Poppins'; */
-    /* font-weight: 500; */
-}
 
 .home div {
 
@@ -254,11 +233,10 @@ font-family: Poppins;
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
-line-height: 35px; /* 133.333% */
+line-height: 35px; 
 }
 .row .left h3 span{
     color:  #CCA353;
-
 }
 
 .row .left hr{
@@ -270,8 +248,7 @@ line-height: 35px; /* 133.333% */
 font-family: Poppins;
 font-size: 13px;
 font-style: normal;
-/* font-weight: 500; */
-line-height: 16px; /* 150% */
+line-height: 16px; 
 }
 .row .left .btn{
     color:#FFF5E0;
@@ -282,7 +259,6 @@ line-height: 16px; /* 150% */
 #Community hr{
    
  border-color:  rgba(204, 164, 83, 0.437) ;
- /* background-color: rgba(204, 163, 83, 1)#c98e18; */
 }
 #Community  .row  div  a{
     color: #c98e18;
